@@ -1,0 +1,92 @@
+/* PG MOBILE ANIMADA */
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%)
+}
+
+h1{
+    text-align: center;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 3;
+  }
+  100% {
+    opacity: 1;
+    color: rgb(131, 21, 235);
+  }
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a {
+    padding-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div1, div2{
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "League Spartan", sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    color: #000000;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    color: #8511b3;
+    background-color: #dcdcdc;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.login:hover {
+    background-color: #a1a1a1;
+    transition: 1s background;
+}
+
+.registrar {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #6c15a7;
+    cursor: pointer;
+    transition: 1s background;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.registrar:hover {
+    background-color: #000000;
+    transition: 1s background;
+}
+
+div.img1, div.img2, div.img3, div.img4, div.img5, div.img6{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+  /* FIM DA PG MOBILE ANIMADA*/
+
+  
